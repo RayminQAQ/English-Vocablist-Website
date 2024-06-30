@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# English Vocabulary Real-time Note-taking App
 
-## Getting Started
+This repository is dedicated to developing a real-time English vocabulary note-taking application, inspired by the need for quick and efficient vocabulary lookup while watching movies. The application aims to enhance learning and convenience by integrating various modern technologies.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-time Vocabulary Notes:** Easily look up and save English words while watching movies.
+- **Login Interface:** Secure authentication using Google Authentication.
+- **Storage Visualization:** Organize and visualize notes indexed by movie titles.
+- **Spelling Correction:** Implementation of a spelling correction feature (research needed for best methods).
+- **LLM Translation:** Leverage advanced language models for translation (based on resources like [LLM Translation](https://hackmd.io/@yingc/S1h383IK9) and [Google Cloud Translation API](https://cloud.google.com/translate/docs/basic/translating-text#translate_translate_text-nodejs)).
+- **Local/Cloud Storage:** Store data locally or on Cloudflare with serverless architecture, if feasible.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technology Focus
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **ReactJS:** Learn and implement frontend with ReactJS.
+- **Backend Interactions:** Understand and develop backend interactions to support the application's functionalities.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Purpose
 
-## Learn More
+This project aims to streamline the process of looking up and saving English vocabulary, making it less cumbersome and more efficient, especially during activities like movie-watching.
 
-To learn more about Next.js, take a look at the following resources:
+## Contribution
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to contribute by suggesting features, improving existing functionalities, or helping with the implementation of the spelling correction feature.
